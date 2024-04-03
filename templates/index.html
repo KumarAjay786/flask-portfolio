@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile">
+        <img src="{{ url_for('static', filename='aks.jpg') }}" alt="Ajay Kumar Sahu">
+        <h1>Ajay Kumar Sahu</h1>
+    </div>
+    <h1><span>Hello</span><span>There.</span></h1>
+    <h2>Welcome to my Portfolio</h2>
+    <p>This is the homepage of my portfolio website.</p>
+</body>
+</html>
